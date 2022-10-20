@@ -1,6 +1,6 @@
 # What's that Fish?
 
-Have you ever been in a sushi restaurant and wonder what kind of fishes you were eating? Well now you don't have to! Using this API, you can search the name of the fish and it will give you a picture to compare it too as well as other information you need to know for your diet.
+Have you ever been in a sushi restaurant and wonder what kind of fishes you were eating? Well now you don't have to! Using this API, you can search the name of the fish and it will give you a picture to compare it to as well as other information you need to know related to food.
 
 ---
 
