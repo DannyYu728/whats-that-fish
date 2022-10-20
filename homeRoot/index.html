@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>FishAPI</title>
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" class="toggler" />
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div>
+          <ul>
+            <li class="homeButton">Home</li>
+            <li class="docButton">Documents</li>
+            <li><a href="http://localhost:3000/fishes">API</a>
+            <li><a href="https://github.com/DannyYu728/whats-that-fish">GitHub</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="title">What's this Fish?</div>
+      <div class="documents hidden">
+        <h1>What's that Fish?</h1>
+
+        <p>
+          Have you ever been in a sushi restaurant and wonder what kind of
+          fishes you were eating? Well now you don't have to! Using this API,
+          you can search the name of the fish and it will give you a picture to
+          compare it to as well as other information you need to know related to
+          food.
+        </p>
+
+        <h2>API GET Endpoints</h2>
+
+        <h3>Request with no parameters:</h3>
+
+        <p>This will give you the entire array of all the objects</p>
+
+        <pre><code>  
+localhost:3000/
+or
+localhost:3000/fishes
+</code></pre>
+
+        <h3>Response:</h3>
+
+        <pre><code> 
+[{ "_id": "6350a3749d270e2a723ef741",
+   "speciesName": "Greater Amberjack",
+   "altName": "Kanpachi",
+...},
+ {"_id": "6350a3749d270e2a723ef724",
+  "speciesName": "Spanish Mackerel",
+  "altName": "Sawara",
+...},
+...]
+</code></pre>
+
+        <h2>Request with a pics as the endpoint:</h2>
+        <p>
+          This will return an array containing only the seafoods with pictures
+        </p>
+
+        <pre><code> 
+localhost:3000/fishes/pics
+</code></pre>
+        <h2>
+          Request with a species parameter either by id or the species name
+        </h2>
+
+        <p>
+          If searching by name, add %20 for space if there is more than 1 word.
+        </p>
+
+        <pre><code> 
+localhost:3000/fishes/id/6350a3749d270e2a723ef724
+localhost:3000/fishes/name/Spanish%20Mackerel
+</code></pre>
+
+        <h3>Response:</h3>
+        <pre><code> 
+{ "_id": "6350a3749d270e2a723ef724",
+  "speciesName": "Spanish Mackerel",
+  "altName": "Sawara",
+...}
+</code></pre>
+
+        <h3>Object Content:</h3>
+
+        <pre><code> 
+[{
+  "_id": " ",
+  "speciesName": " ",
+  "altName": " ",
+  "calories": " ",
+  "color": " ",
+  "totalFat": " ",
+  "protein": " ",
+  "servingWeight": " ",
+  "taste": " ",
+  "texture": " ",
+  "imgUrl": " ",
+   "__v": number,
+}]
+</code></pre>
+
+        <h1>The rest of the CRUD's function</h1>
+        <h3>To create:</h3>
+        <p>
+          Use the end point below and an API platform such as Postman. Make sure
+          to switch to the body, and select raw and JSON. The format should be
+          the same as the above object content.
+        </p>
+        <pre><code> 
+localhost:3000/fishes/
+</code></pre>
+
+        <h2>Update, or Delete</h2>
+        <p>
+          Use the ID endpoint and an API platform such as Postman. Make sure to
+          add Content-type to the key field and application/json to value in the
+          Header.
+        </p>
+        <pre><code> 
+localhost:3000/fishes/id/6350a3749d270e2a723ef724
+</code></pre>
+      </div>
+    </main>
+    <footer>Copyright 2022 DannyYu728</footer>
+  </body>
+</html>

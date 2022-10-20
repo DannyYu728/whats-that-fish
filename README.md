@@ -112,3 +112,7 @@ localhost:3000/fishes/id/6350a3749d270e2a723ef724
 
 - [Fish Watch API](https://www.fishwatch.gov/developers)
 - [Filter method by Siva K V from Stack Overflow](https://stackoverflow.com/questions/71756525/remove-specific-words-from-a-string-in-an-efficient-way)
+- [Hamburger Menu](https://alvarotrigo.com/blog/hamburger-menu-css/#:~:text=A%20Hamburger%20Menu%20is%20a,top%20of%20the%20main%20content.)
+- [Color Palette](https://venngage.com/blog/blue-color-palettes/)
+
+
