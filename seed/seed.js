@@ -21,6 +21,7 @@ let filter = (strings) => {
 let imagesData = images.map((image) => {
   return {
     speciesName: image.speciesName,
+    altName: image.altName,
     imgUrl: image.imgUrl
   }
 });
@@ -28,6 +29,7 @@ let imagesData = images.map((image) => {
 let fishesData = fishes.map((fish) => {
   return {
     speciesName: fish["Species Name"],
+    altName: "",
     calories: fish.Calories,
     color: filter(fish.Color),
     totalFat: fish["Fat, Total"],
@@ -45,6 +47,7 @@ const insertData = async () => {
   await Fish.create(fishesData)
 
   console.log(fishes.length)
+  console.log(images.length)
 
   db.close();
 }

@@ -28,7 +28,7 @@ export const getFish = async (req, res) => {
 
 export const getFishName = async (req, res) => {
   try {
-    const fish = await Fish.find({name: req.params.name});
+    const fish = await Fish.find({speciesName: req.params.speciesName});
 
     if (fish) {
       return res.json(fish);

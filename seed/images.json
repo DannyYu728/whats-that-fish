@@ -1,6 +1,102 @@
 [
   {
     "speciesName": "Atlantic Yellowfin Tuna",
+    "altName": "Kihada Maguro",
     "imgUrl": "https://cravefishbar.com/wp-content/uploads/2021/03/Fish-Profiles_-Tuna.jpg"
-}
+  },
+  {
+    "speciesName": "Atlantic Salmon",
+    "altName": "Taiseiyousake",
+    "imgUrl": "https://static1.squarespace.com/static/549860bde4b0385fffd8c97d/t/61e0bed3ab16185a5e17be7d/1642118868621/NW-Salmon-on-slate.jpg"
+  },
+  {
+    "speciesName": "Atlantic Bigeye Tuna",
+    "altName": "Mebachi Maguro",
+    "imgUrl": "https://live.staticflickr.com/2811/9176139695_14aeffc8a5_b.jpg"
+  },
+  {
+    "speciesName": "Atlantic Sea Scallop",
+    "altName": "Hotate",
+    "imgUrl": "https://thejapanesebar.com/wp-content/uploads/2021/08/DSC_9751-Hotate-Nigiri-WEB1000-930x498.jpg"
+  },
+  {
+    "speciesName": "Pacific Bluefin Tuna",
+    "altName": "Hon Maguro",
+    "imgUrl": "https://munchies-images.vice.com/wp_upload/Pacific-bluefin-tuna-exctinction-report.jpg?crop=1xw:0.8421985815602837xh;center,center&resize=1200:*"
+  },
+  {
+    "speciesName": "Spanish Mackerel",
+    "altName": "Sawara",
+    "imgUrl": "https://photo2.foodgawker.com/wp-content/uploads/2009/02/76624.jpeg"
+  },
+  {
+    "speciesName": "Monkfish",
+    "altName": "Ankou",
+    "imgUrl": "https://www.thefishsociety.co.uk/media/image/e9/10/ed/Monkfish-liver-Ankimo-2.jpg"
+  },
+  {
+    "speciesName": "Pacific Oyster",
+    "altName": "Kaki",
+    "imgUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0e/eb/89/84/nama-kaki-sashimi.jpg"
+  },
+  {
+    "speciesName": "Geoduck",
+    "altName": "Mirugai",
+    "imgUrl": "https://marxfood.com/wp-content/uploads/mf-GeoduckSashimiHowTo-Body.jpg"
+  },
+  {
+    "speciesName": "Butterfish",
+    "altName": "Medai",
+    "imgUrl": "https://live.staticflickr.com/1646/25836674851_e22a9bc464_b.jpg"
+  },
+  {
+    "speciesName": "Atlantic Mackerel",
+    "altName": "Saba",
+    "imgUrl": "https://thejapanesebar.com/wp-content/uploads/2021/08/DSC_9755-Saba-WEB1000.jpg"
+  },
+  {
+    "speciesName": "Red Snapper",
+    "altName": "Madai",
+    "imgUrl": "https://sushihanatulsa.com/wp-content/uploads/2020/08/SN-red-snapper-nigiri.jpg"
+  },
+  {
+    "speciesName": "Sockeye Salmon",
+    "altName": "Benizake",
+    "imgUrl": "https://skipperotto.com/wp-content/uploads/2016/01/sashim-for-web.jpeg"
+  },
+  {
+    "speciesName": "Sablefish",
+    "altName": "Gindara",
+    "imgUrl": "https://live.staticflickr.com/5294/5533246830_4b9fa0c876_b.jpg"
+  },
+  {
+    "speciesName": "Pink Shrimp",
+    "altName": "Amaebi",
+    "imgUrl": "https://i0.wp.com/shizuokagourmet.com/wp-content/uploads/2012/01/amaebi-sushi.jpg"
+  },
+  {
+    "speciesName": "Atlantic Northern Shrimp",
+    "altName": "Amaebi",
+    "imgUrl": "https://i0.wp.com/shizuokagourmet.com/wp-content/uploads/2012/01/amaebi-sushi.jpg"
+  },
+  {
+    "speciesName": "Atlantic Skipjack Tuna",
+    "altName": "Katsuo",
+    "imgUrl": "https://d1rxvdm0rjmjgy.cloudfront.net/srv/images/katsuo-nigiri-ginger-scallion-900x600.jpg"
+  },
+  {
+    "speciesName": "Greater Amberjack",
+    "altName": "Kanpachi",
+    "imgUrl": "https://thejapanesebar.com/wp-content/uploads/2021/08/DSC_0223-Kanpachi-Nigiri-WEB1000-930x500.jpg"
+  },
+  {
+    "speciesName": "Atlantic Striped Bass",
+    "altName": "Suzuki",
+    "imgUrl": "https://thejapanesebar.com/wp-content/uploads/2021/08/DSC_0449-Suzuki-Sashimi-WEB1000-930x575.jpg"
+  },
+  {
+    "speciesName": "Atlantic Surfclam",
+    "altName": "Hokkikai",
+    "imgUrl": "https://img.freepik.com/premium-photo/sliced-japanese-food-surf-clam-hokkigai-sashimi-dinner-meal-isolated-white-background_126277-341.jpg?w=2000"
+  }
 ]

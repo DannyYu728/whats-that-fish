@@ -3,6 +3,7 @@ const Schema = mongoose.Schema;
 
 let Fish = new Schema({
   speciesName: String,
+  altName: String,
   calories: String,
   color: String,
   totalFat: String,
@@ -10,7 +11,7 @@ let Fish = new Schema({
   servingWeight: String,
   taste: String,
   texture: String,
-  imgUrl: { type: Schema.Types.String, ref: 'Image' }
+  imgUrl: String,
 });
 
 export default mongoose.model("fishes", Fish)

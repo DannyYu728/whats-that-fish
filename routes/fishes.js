@@ -5,7 +5,7 @@ const router = Router();
 
 router.get('/', controllers.getFishes);
 router.get('/id/:id', controllers.getFish);
-router.get('/name/:name', controllers.getFishName);
+router.get('/name/:speciesName', controllers.getFishName);
 router.post('/', controllers.createFish);
 router.put('/id/:id', controllers.updateFish);
 router.delete('/id/:id', controllers.deleteFish);
