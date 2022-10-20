@@ -4,9 +4,10 @@ import * as controllers from "../controllers/fishes.js"
 const router = Router();
 
 router.get('/', controllers.getFishes);
-router.get('/:id', controllers.getFish);
+router.get('/id/:id', controllers.getFish);
+router.get('/name/:name', controllers.getFishName);
 router.post('/', controllers.createFish);
-router.put('/:id', controllers.updateFish);
-router.delete('/:id', controllers.deleteFish);
+router.put('/id/:id', controllers.updateFish);
+router.delete('/id/:id', controllers.deleteFish);
 
 export default router

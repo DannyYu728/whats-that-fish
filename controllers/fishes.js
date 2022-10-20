@@ -26,6 +26,21 @@ export const getFish = async (req, res) => {
   }
 };
 
+export const getFishName = async (req, res) => {
+  try {
+    const fish = await Fish.find({name: req.params.name});
+
+    if (fish) {
+      return res.json(fish);
+    }
+    res.status(404).json({ message: "Fish not found!" });
+
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: error.message });
+  }
+};
+
 export const createFish = async (req, res) => {
   try {
     const fish = new Fish(req.body);
