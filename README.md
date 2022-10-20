@@ -36,6 +36,8 @@ localhost:3000/fishes
 
 #### Request with a species parameter either by id or the species name
 
+<sub>If searching by name, add %20 for space if there is more than 1 word.</sub>
+
 ```
 localhost:3000/fishes/id/6350a3749d270e2a723ef724
 localhost:3000/fishes/name/Spanish%20Mackerel
@@ -77,14 +79,22 @@ localhost:3000/fishes/name/Spanish%20Mackerel
 
 ### The rest of the CRUD's function
 
-To create, update, or delete, use the ID endpoint and an API platform such as Postman
+#### To create:
+ <sub>Use the end point below and an API platform such as Postman. Make sure to switch to the body, and select raw and JSON.</sub>
+
+```
+localhost:3000/fishes/
+```
+
+#### Update, or Delete,
+ <sub>Use the ID endpoint and an API platform such as Postman. Make sure to add Content-type to the key field and application/json to value in the Header.</sub>
 
 ```
 localhost:3000/fishes/id/6350a3749d270e2a723ef724
 ```
 
 ---
-##### TO-DO-List
+#### TO-DO-List
 1. Replace all null with relavant information
 2. Add more seafood related to sushi
 3. Add more pictures
