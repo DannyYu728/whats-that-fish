@@ -6,7 +6,9 @@ Have you ever been in a sushi restaurant and wonder what kind of fishes you were
 
 ### API GET Endpoints
 
-#### Request with no parameters
+#### Request with no parameters:
+
+<sub>This will give you the entire array of all the objects</sub>
 
 ```
 localhost:3000/
@@ -80,7 +82,7 @@ localhost:3000/fishes/name/Spanish%20Mackerel
 ### The rest of the CRUD's function
 
 #### To create:
- <sub>Use the end point below and an API platform such as Postman. Make sure to switch to the body, and select raw and JSON.</sub>
+ <sub>Use the end point below and an API platform such as Postman. Make sure to switch to the body, and select raw and JSON. The format should be the same as the above object content.</sub>
 
 ```
 localhost:3000/fishes/
