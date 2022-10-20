@@ -10,6 +10,21 @@ export const getFishes = async (req, res) => {
   }
 };
 
+export const getFishesWithPic = async (req, res) => {
+  try {
+    const fish = await Fish.find({ imgUrl: { $ne: "" } });
+
+    if (fish) {
+      return res.json(fish);
+    }
+    res.status(404).json({ message: "Fish not found!" });
+
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: error.message });
+  }
+};
+
 export const getFish = async (req, res) => {
   try {
     const { id } = req.params;

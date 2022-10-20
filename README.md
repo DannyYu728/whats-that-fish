@@ -35,6 +35,12 @@ localhost:3000/fishes
     ...
 ]
 ```
+#### Request with a pics as the endpoint:
+<sub>This will return an array containing only the seafoods with pictures</sub>
+
+```
+localhost:3000/fishes/pics
+```
 
 #### Request with a species parameter either by id or the species name
 
