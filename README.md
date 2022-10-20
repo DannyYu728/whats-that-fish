@@ -8,11 +8,9 @@ Have you ever been in a sushi restaurant and wonder what kind of fishes you were
 
 #### Request with no parameters:
 
-<sub>This will give you the entire array of all the objects</sub>
+<sub>This will give you the entire array of all the fish objects</sub>
 
 ```
-localhost:3000/
-or
 localhost:3000/fishes
 ```
 
