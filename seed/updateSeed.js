@@ -11,9 +11,17 @@ let updateData = async () => {
     await Fish.updateMany(
       { speciesName: image.speciesName },
       { $set: { imgUrl: image.imgUrl } },
+      
+    );
+  });
+
+  images.forEach(async (image) => {
+    await Fish.updateMany(
+      { speciesName: image.speciesName },
       { $set: { altName: image.altName } }
     );
   });
+
   db.close()
 };
 
