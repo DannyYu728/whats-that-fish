@@ -14,7 +14,6 @@ let updateData = async () => {
     );
   });
 
-  db.close()
 };
 
 updateData()
