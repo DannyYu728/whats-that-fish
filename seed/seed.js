@@ -42,12 +42,10 @@ let fishesData = fishes.map((fish) => {
 });
 
 const insertData = async () => {
-  await db.dropDatabase();
+  await Fish.deleteMany({})
+  await Image.deleteMany({})
   await Image.create(imagesData)
   await Fish.create(fishesData)
-
-  console.log(fishes.length)
-  console.log(images.length)
 
   db.close();
 }
