@@ -45,8 +45,8 @@ https://whats-that-fish.up.railway.app/fishes/pics
 <sub>If searching by name, add %20 for space if there is more than 1 word.</sub>
 
 ```
-https://whats-that-fish.up.railway.app/fishes/fishes/id/6350a3749d270e2a723ef724
-https://whats-that-fish.up.railway.app/fishes/fishes/name/Spanish%20Mackerel
+https://whats-that-fish.up.railway.app/fishes/id/6350a3749d270e2a723ef724
+https://whats-that-fish.up.railway.app/fishes/name/Spanish%20Mackerel
 ```
 
 ##### Response:
@@ -89,14 +89,14 @@ https://whats-that-fish.up.railway.app/fishes/fishes/name/Spanish%20Mackerel
  <sub>Use the end point below and an API platform such as Postman. Make sure to switch to the body, and select raw and JSON. The format should be the same as the above object content.</sub>
 
 ```
-https://whats-that-fish.up.railway.app/fishes/fishes/
+https://whats-that-fish.up.railway.app/fishes/
 ```
 
 #### Update, or Delete,
  <sub>Use the ID endpoint and an API platform such as Postman. Make sure to add Content-type to the key field and application/json to value in the Header.</sub>
 
 ```
-https://whats-that-fish.up.railway.app/fishes/fishes/id/6350a3749d270e2a723ef724
+https://whats-that-fish.up.railway.app/fishes/id/6350a3749d270e2a723ef724
 ```
 
 ---
