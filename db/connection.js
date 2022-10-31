@@ -1,10 +1,11 @@
 import mongoose from "mongoose";
 import chalk from "chalk";
 
+const url = process.env.MONGO_URL || 'mongodb://127.0.0.1:27017/fish_api'
 mongoose.set("returnOriginal", false);
 
 mongoose
-  .connect("mongodb://127.0.0.1:27017/fish_api")
+  .connect(url)
   .catch((err) => {
   console.log(`error connectining to MongoDB: ${err.message}`);
 });
